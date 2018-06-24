@@ -16,7 +16,7 @@ public class Main {
     	// Start embedded server at this port
         port(getHerokuAssignedPort());
 
-        get("/hello", (req, res) -> "Hello Heroku World. I don't believe!!!");
+        get("/hello", (req, res) -> "Hola Solcito! Soy el nuevo programa del mono y me mando a decirte que te ama mucho! :)");
     }
 
     static int getHerokuAssignedPort() {
