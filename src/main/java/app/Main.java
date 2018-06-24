@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
 
     	// Start embedded server at this port
-        port(8080);
+        port(5000);
 
         get("/hello", (req, res) -> "Hello World. I don't believe!!!");
     }
