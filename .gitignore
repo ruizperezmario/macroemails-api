@@ -1,1 +1,15 @@
-target/*
+.DS_Store
+lib/i18ngettext.jar
+.i18n/messages.po
+.gradle/3.1/taskArtifacts/taskArtifacts.bin
+*.gradle/
+*.idea
+*.iml
+*.swp
+target/
+*.class
+.class
+build/
+build/*
+*.build/
+*.out/
